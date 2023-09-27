@@ -8,7 +8,7 @@
     <body>
       <section class="header">
     <nav>
-      <a href="index.html"><img src="./../assets/logo.png"></a>
+      <a href="index.html"><img src="./../assets/images/logo.png"></a>
        <div class="nav-links" id="navlinks">
         <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
@@ -71,19 +71,19 @@
 
 <div class="row">
     <div class="campus-col">
-      <img src="./../assets/london.png">
+      <img src="./../assets/images/london.png">
       <div class="layer">
         <h3>NAIROBI</h3>
       </div>
     </div>
     <div class="campus-col">
-      <img src="./../assets/newyork.png">
+      <img src="./../assets/images/newyork.png">
       <div class="layer">
         <h3>NAKURU</h3>
       </div>
     </div>
     <div class="campus-col">
-      <img src="./../assets/washington.png">
+      <img src="./../assets/images/washington.png">
       <div class="layer">
         <h3>ELDORET</h3>
       </div>
@@ -92,22 +92,6 @@
 
 </section>
 
-
-
-
-
-<!------JavaScript for Toggle Menu------>
-  <script>
-
-      var navlinks=document.getElementById("navlinks");
-
-      function showMenu(){
-        navlinks.style.right ="0";  
-      }
-      function hideMenu(){
-        navlinks.style.right ="-200px";  
-      }
-  </script>
-  </body>
+ </body>
     </div>
 </template>
