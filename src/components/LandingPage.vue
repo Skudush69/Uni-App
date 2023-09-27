@@ -8,7 +8,7 @@
     <body>
       <section class="header">
     <nav>
-      <a href="index.html"><img src="images/logo.png"></a>
+      <a href="index.html"><img src="./../assets/logo.png"></a>
        <div class="nav-links" id="navlinks">
         <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
@@ -26,7 +26,7 @@
     <p>Welcome to Beacon Hills University where there is provision of an all-round quality<br>education where you get
       professional training and acquire personal qualities.
     </p>
-    <a href=""class="hero-btn">Visit Us To know More</a>
+    <a href="hero-btn">Visit Us To know More</a>
   </div>  
   
   </section>
@@ -71,19 +71,19 @@
 
 <div class="row">
     <div class="campus-col">
-      <img src="images/london.png">
+      <img src="./../assets/london.png">
       <div class="layer">
         <h3>NAIROBI</h3>
       </div>
     </div>
     <div class="campus-col">
-      <img src="images/newyork.png">
+      <img src="./../assets/newyork.png">
       <div class="layer">
         <h3>NAKURU</h3>
       </div>
     </div>
     <div class="campus-col">
-      <img src="images/washington.png">
+      <img src="./../assets/washington.png">
       <div class="layer">
         <h3>ELDORET</h3>
       </div>
