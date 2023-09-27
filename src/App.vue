@@ -1,25 +1,17 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import LandingPage from './components/LandingPage.vue'
-import Login from './components/Login.vue'
-import SignUp from './components/SignUp.vue'
-import AboutUS from './components/AboutUs.vue'
+
 
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <img alt="new logo" class="new logo" src="./assets/images/new logo.jpeg" width="150" height="125" />
   </header>
 
   <main>
-    <div class="wrapper">
-      <LandingPage/>
-      <Login/>
-      <SignUp/>
-      <AboutUS/>
-    </div>
+    <router-view></router-view>
   </main>
 </template>
 
