@@ -9,14 +9,9 @@ import Footer from './components/Footer.vue';
     <v-main>
       <Router-View></Router-View>
     </v-main>
+    <Footer/>
   </v-app>
-  <header>
-    <img alt="new logo" class="new logo" src="./assets/images/new logo.jpeg" width="150" height="125" />
-  </header>
-
-  <main>
-    <router-view></router-view>
-  </main>
+  
 </template>
 
 <style scoped>

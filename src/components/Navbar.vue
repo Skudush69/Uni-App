@@ -16,6 +16,12 @@
      <div>
      <v-btn to="/signup" color="white" dark >SignUp</v-btn>
      </div>
+     <div>
+     <v-btn to="/course" color="white" dark >Course</v-btn>
+     </div>
+     <div>
+     <v-btn to="/blog" color="white" dark >Blog</v-btn>
+     </div>
 
      </v-app-bar>
   </div>

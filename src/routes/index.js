@@ -4,6 +4,8 @@ import LandingPage from "./../components/Landingpage.vue"
 import About from "./../components/About.vue"
 import Login from "./../components/Login.vue"
 import SignUp from "./../components/SignUp.vue"
+import Course from "./../components/Course.vue"
+import Blog from "./../components/Blog.vue"
 
 
 const routes = [
@@ -26,7 +28,17 @@ const routes = [
     path:'/login',
     name:'login',
     component: Login ,
-  }
+  },
+  {
+    path:'/Course',
+    name:'Course',
+    component: Course ,
+  },
+  {
+    path:'/Blog',
+    name:'Blog',
+    component: Blog ,
+  },
 ]
 const router = createRouter({
   history: createWebHistory(),

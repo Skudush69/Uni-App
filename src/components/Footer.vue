@@ -5,13 +5,13 @@
       <strong>Get connected with us on social network!</strong>
       <v-spacer></v-spacer>
 
-      <v-btn>
+      <v-btn
         v-for="icon in icons"
         :key="icon"
         class="mx-4"
         :icon="icon"
         variant="plain"
-        size="small"
+        size="small">
       </v-btn>
     </div>
 
