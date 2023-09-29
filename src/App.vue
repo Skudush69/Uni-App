@@ -1,11 +1,15 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-
-
+import NavBar from './components/Navbar.vue'
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
+  <v-app>
+    <NavBar/>
+    <v-main>
+      <Router-View></Router-View>
+    </v-main>
+  </v-app>
   <header>
     <img alt="new logo" class="new logo" src="./assets/images/new logo.jpeg" width="150" height="125" />
   </header>
