@@ -22,6 +22,9 @@
      <div>
      <v-btn to="/blog" color="white" dark >Blog</v-btn>
      </div>
+     <div>
+     <v-btn to="/students" color="white" dark >Students</v-btn>
+     </div>
 
      </v-app-bar>
   </div>

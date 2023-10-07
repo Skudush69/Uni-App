@@ -6,6 +6,7 @@ import Login from "./../components/Login.vue"
 import SignUp from "./../components/SignUp.vue"
 import Course from "./../components/Course.vue"
 import Blog from "./../components/Blog.vue"
+import Students from "./../components/Students.vue"
 
 
 const routes = [
@@ -38,6 +39,11 @@ const routes = [
     path:'/Blog',
     name:'Blog',
     component: Blog ,
+  },
+  {
+    path:'/students',
+    name:'students',
+    component: Students ,
   },
 ]
 const router = createRouter({
